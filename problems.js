@@ -14,13 +14,18 @@ function averageOfFour(num1, num2, num3, num4) {
     /* Takes in four numbers. The function should return the average of all of
     the numbers. */
     // Your code here;
-    return num1+num2+ num3+ num4
+    return (num1+num2+ num3+ num4)/4
 };
 
 function doubler(nums) {
     /* Takes an array of numbers and returns a new array where every element of
     the original array is multiplied by 2. */
     // Your code here
+    let doubled=[]
+    for (let  i=0; i< nums.length; i++){
+        doubled.push(2* nums[i]);
+    }
+    return doubled;
 };
 
 function combineArrays(arr1, arr2) {
