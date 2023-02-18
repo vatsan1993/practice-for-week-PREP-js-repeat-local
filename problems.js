@@ -83,6 +83,7 @@ function isFive(num) {
     /* Takes in a number, num, and returns `true` if a number is equal to 5 and
     `false` if it is not. */
     // Your code here
+    return num ==5;
 };
 
 function isOdd(num) {
@@ -118,6 +119,8 @@ function aCounter(word) {
     return count;
     */
     // Your code here
+    let index = 0;
+    let count = 0;
 };
 
 module.exports = {
